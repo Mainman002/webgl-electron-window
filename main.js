@@ -28,13 +28,6 @@ if (!gl) {
   
   // draw
 window.addEventListener('load', () => {
-    const matrix = [
-        1, 0, 0, 0,
-        0, 1, 0, 0,
-        0, 0, 1, 0,
-        x, y, z, 1
-    ];
-
     const vertexData = [
     0, 1, 0,
     1, -1, 0,
